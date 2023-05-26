@@ -2,9 +2,9 @@
 1. Create project blockchain
 
 Step 1: Initialize project based on npm
-'''
+```
 $ npm init
-'''
+```
 
 Step 2: install truffle version 5.4.11
 '''
