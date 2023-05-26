@@ -20,3 +20,18 @@ Step 4: Initialize truffle project
 ```
 $ npx truffle init
 ```
+
+**2. Deploy code into Ganache**
+a. Config network address
+
+```
+networkds: {
+      ganache :{
+        host: "127.0.0.1",     // Localhost (default: none)
+        port: 7545,            // Standard Ethereum port (default: none)
+        network_id: "*",       // Any network (default: none)
+      },
+}
+```
+
+b. Create file 2_deploy_contract.js
