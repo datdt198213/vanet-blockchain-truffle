@@ -22,6 +22,7 @@ $ npx truffle init
 ```
 
 **2. Deploy code into Ganache**
+
 a. Config network address
 
 ```
