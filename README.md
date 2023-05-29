@@ -36,3 +36,12 @@ networkds: {
 ```
 
 b. Create file 2_deploy_contract.js
+```
+var ChainList = artifacts.require("ChainList");
+
+module.exports = function(deployer) {
+
+  deployer.deploy(ChainList);
+
+}
+```
